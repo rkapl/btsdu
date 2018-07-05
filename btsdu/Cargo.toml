@@ -1,0 +1,6 @@
+[package]
+name = "btsdu"
+version = "0.1.0"
+authors = ["Roman Kapl <code@rkapl.cz>"]
+
+[dependencies]

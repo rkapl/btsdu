@@ -1,0 +1,7 @@
+[package]
+name = "dump"
+version = "0.1.0"
+authors = ["Roman Kapl <code@rkapl.cz>"]
+
+[dependencies]
+btrfs-send-parse = {path = "../btrfs-send-parse"}
