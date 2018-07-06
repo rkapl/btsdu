@@ -2,6 +2,10 @@
 name = "btrfs-send-parse"
 version = "0.1.0"
 authors = ["Roman Kapl <code@rkapl.cz>"]
+keywords = ["btrfs"]
+license = "GPL-2.0"
+repository = "https://github.com/rkapl/btsdu"
+description = "Library for parsing the btrfs send/receive stream."
 
 [dependencies]
 byteorder = "1.2.3"

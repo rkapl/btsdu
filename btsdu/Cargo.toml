@@ -2,9 +2,13 @@
 name = "btsdu"
 version = "0.1.0"
 authors = ["Roman Kapl <code@rkapl.cz>"]
+keywords = ["btrfs"]
+license = "GPL-2.0"
+repository = "https://github.com/rkapl/btsdu"
+description = "Tool for analysing disk usage of btrfs snapshots."
 
 [dependencies]
-btrfs-send-parse = {path = "../btrfs-send-parse"}
+btrfs-send-parse = {path = "../btrfs-send-parse", version = "0.1.0"}
 clap = "2.32.0"
 serde_json = "1.0.22"
 serde = "1.0.69"

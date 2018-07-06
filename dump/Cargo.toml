@@ -2,6 +2,7 @@
 name = "dump"
 version = "0.1.0"
 authors = ["Roman Kapl <code@rkapl.cz>"]
+publish = false
 
 [dependencies]
 btrfs-send-parse = {path = "../btrfs-send-parse"}
