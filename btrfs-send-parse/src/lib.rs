@@ -74,6 +74,7 @@ pub struct Timespec {
 pub type BtrfsString = String;
 
 fn invalid_data<T>(err: &str) -> Result<T> {
+    panic!("Test");
     return Err(io::Error::new(io::ErrorKind::InvalidData, err));
 }
 
@@ -299,7 +300,7 @@ impl<'a> BtrfsReader<'a> {
                     path: try!(t.path()),
                     file_offset: try!(t.file_offset()),
                     clone_len: try!(t.clone_len()),
-                    clone_uuid: try!(t.uuid()),
+                    clone_uuid: try!(t.clone_uuid()),
                     clone_ctransid: try!(t.clone_ctransid()),
                     clone_path: try!(t.clone_path()),
                     clone_offset: try!(t.clone_offset()),
